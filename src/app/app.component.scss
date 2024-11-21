@@ -1,0 +1,41 @@
+@import 'ckeditor5/ckeditor5.css';
+@import 'ckeditor5-premium-features/ckeditor5-premium-features.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  height: 100vh;
+}
+
+.header {
+  height: 3rem;
+  background-color: aliceblue;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  height: calc(100vh - 3rem);
+}
+
+.outline-container {
+  flex: 1;
+  overflow: auto;
+}
+
+.editor-container {
+  flex: 3;
+  overflow: auto;
+}
+
+.toolbar-container {
+  position: sticky;
+  top: 0;
+}
